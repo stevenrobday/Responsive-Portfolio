@@ -7,35 +7,20 @@ body{
     width: 100%;
 }
 
-header{
-    background-color: #ffffff;
-    height:  80px;
-    border-bottom: 3px solid #cccccc;
-}
-
 #headerWrapper{
     left: 0; 
     right: 0;
     margin: auto;
-    line-height: 80px;
     text-align: center;
-    background-color: #ffffff;
-    border-bottom: 3px solid #cccccc;
 }
 
 #name{
-    float: left;
-    padding: 0 30px;
     background-color: #4aaaa5;
     color: #ffffff;
 }
 
 h1{
     font-family: 'Georgia', Times, Times New Roman, serif;
-}
-
-nav{
-    float: right;
 }
 
 nav span a, #contentMain, footer{
@@ -170,9 +155,27 @@ footer{
     padding: 10px 30px;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 980px) {
+    header{
+        background-color: #ffffff;
+        height:  80px;
+        border-bottom: 3px solid #cccccc;
+    }
+
     #headerWrapper{
         width: 960px;
+        line-height: 80px;
+        background-color: #ffffff;
+        border-bottom: 3px solid #cccccc;
+    }
+
+    #name{
+        float: left;
+        padding: 0 30px;
+    }
+
+    nav{
+        float: right;
     }
 
     #contentWrapper{
@@ -180,7 +183,90 @@ footer{
     }
 
     #content{
-        width: 600px;
+        width: 556px;
         left: 0; 
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 979px) {
+    header{
+        background-color: #ffffff;
+        height:  80px;
+        border-bottom: 3px solid #cccccc;
+    }
+
+    #headerWrapper{
+        width: 750px;
+        line-height: 80px;
+        background-color: #ffffff;
+        border-bottom: 3px solid #cccccc;
+    }
+
+    #name{
+        float: left;
+        padding: 0 30px;
+    }
+
+    nav{
+        float: right;
+    }
+
+    #contentWrapper{
+        width: 750px;
+    }
+
+    #content{
+        width: 556px;
+        left: 0; 
+    }
+}
+
+@media only screen and (min-width: 641px) and (max-width: 768px) {
+    header{
+        background-color: #ffffff;
+        height:  80px;
+        border-bottom: 3px solid #cccccc;
+    }
+
+    #headerWrapper{
+        width: 620px;
+        line-height: 80px;
+        background-color: #ffffff;
+        border-bottom: 3px solid #cccccc;
+    }
+
+    #name{
+        float: left;
+        padding: 0 30px;
+    }
+
+    nav{
+        float: right;
+    }
+
+    #content{
+        width: 556px;
+        left: 0; 
+        right: 0;
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    #name{
+        line-height: 80px;
+    }
+
+    nav{
+       line-height: 60px;
+       background-color: #ffffff; 
+       border-bottom: 3px solid #cccccc;
+    }
+
+    #content{
+        width: 400px;
+        left: 0; 
+        right: 0;
+        margin: auto;
     }
 }
