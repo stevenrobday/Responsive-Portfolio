@@ -99,6 +99,9 @@ nav span a:hover{
 #fruityPebbles{
     background: url(../images/fruitypebbles.png);
     background-repeat: no-repeat;
+}
+
+#fruityPebbles, #theRealStevester{
     margin-right: 45px;
 }
 
@@ -114,10 +117,14 @@ nav span a:hover{
 #theRealStevester{
     background: url(../images/thestevester.jpg);
     background-repeat: no-repeat;
-    margin-left: 150px;
 }
 
-#fruityPebbles, #pacMental, #theRealStevester{
+#reagan{
+    background: url(../images/reagan.jpg);
+    background-repeat: no-repeat;
+}
+
+#fruityPebbles, #pacMental, #theRealStevester, #reagan{
     background-size: 250px;
     width: 250px;
     height: 280px;
@@ -245,19 +252,19 @@ footer{
         margin-bottom: 20px;
     }
 
-    #fruityPebbles, #pacMental, #theRealStevester{
+    #fruityPebbles, #pacMental, #theRealStevester, #reagan{
         background-size: 400px;
         width: 400px;
         height: 430px;
         background-color: #000000;
     }
 
-    #fruityPebbles{
+    #fruityPebbles, #reagan{
         margin-right: 0;
     }
 
     #theRealStevester{
-        margin-left: 0;
+        margin-bottom: 30px;
     }
 
     .inputField {
