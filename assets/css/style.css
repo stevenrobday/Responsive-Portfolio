@@ -105,7 +105,7 @@ nav span a:hover{
     margin-right: 45px;
 }
 
-#fruityPebbles, #pacMental{
+#fruityPebbles, #pacMental, #theRealStevester, #reagan{
     margin-bottom: 30px;
 }
 
@@ -124,7 +124,12 @@ nav span a:hover{
     background-repeat: no-repeat;
 }
 
-#fruityPebbles, #pacMental, #theRealStevester, #reagan{
+#breakingBad{
+    background: url(../images/bbAssessment.jpg);
+    background-repeat: no-repeat;
+}
+
+#fruityPebbles, #pacMental, #theRealStevester, #reagan, #breakingBad{
     background-size: 250px;
     width: 250px;
     height: 280px;
@@ -252,7 +257,7 @@ footer{
         margin-bottom: 20px;
     }
 
-    #fruityPebbles, #pacMental, #theRealStevester, #reagan{
+    #fruityPebbles, #pacMental, #theRealStevester, #reagan, #breakingBad{
         background-size: 400px;
         width: 400px;
         height: 430px;
