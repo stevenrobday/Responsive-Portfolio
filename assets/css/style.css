@@ -101,11 +101,11 @@ nav span a:hover{
     background-repeat: no-repeat;
 }
 
-#fruityPebbles, #theRealStevester{
+.marginRight{
     margin-right: 44px;
 }
 
-#fruityPebbles, #pacMental, #theRealStevester, #reagan{
+.bottom{
     margin-bottom: 30px;
 }
 
@@ -124,12 +124,22 @@ nav span a:hover{
     background-repeat: no-repeat;
 }
 
+#starWars{
+    background: url(../images/darthvader.jpg);
+    background-repeat: no-repeat;
+}
+
 #breakingBad{
     background: url(../images/bbAssessment.jpg);
     background-repeat: no-repeat;
 }
 
-#fruityPebbles, #pacMental, #theRealStevester, #reagan, #breakingBad{
+#animalGenerator{
+    background: url(../images/dog.jpg);
+    background-repeat: no-repeat;
+}
+
+#fruityPebbles, #pacMental, #theRealStevester, #reagan, #starWars, #breakingBad, #animalGenerator{
     background-size: 250px;
     width: 250px;
     height: 280px;
@@ -257,18 +267,18 @@ footer{
         margin-bottom: 20px;
     }
 
-    #fruityPebbles, #pacMental, #theRealStevester, #reagan, #breakingBad{
+    #fruityPebbles, #pacMental, #theRealStevester, #reagan, #starWars, #breakingBad, #animalGenerator{
         background-size: 400px;
         width: 400px;
         height: 430px;
         background-color: #000000;
     }
 
-    #fruityPebbles, #reagan{
+    .marginRight{
         margin-right: 0;
     }
 
-    #theRealStevester{
+    .bottom{
         margin-bottom: 30px;
     }
 
