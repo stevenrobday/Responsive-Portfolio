@@ -139,7 +139,12 @@ nav span a:hover{
     background-repeat: no-repeat;
 }
 
-#fruityPebbles, #pacMental, #theRealStevester, #reagan, #starWars, #breakingBad, #animalGenerator{
+#rps{
+    background: url(../images/glassJoe.png);
+    background-repeat: no-repeat;
+}
+
+#fruityPebbles, #pacMental, #theRealStevester, #reagan, #starWars, #breakingBad, #animalGenerator, #rps{
     background-size: 250px;
     width: 250px;
     height: 280px;
@@ -267,7 +272,7 @@ footer{
         margin-bottom: 20px;
     }
 
-    #fruityPebbles, #pacMental, #theRealStevester, #reagan, #starWars, #breakingBad, #animalGenerator{
+    #fruityPebbles, #pacMental, #theRealStevester, #reagan, #starWars, #breakingBad, #animalGenerator, #rps{
         background-size: 400px;
         width: 400px;
         height: 430px;
